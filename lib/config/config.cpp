@@ -160,7 +160,7 @@ VrxBackpackConfig::SetDefaults()
     m_config.version = VRX_BACKPACK_CONFIG_VERSION | VRX_BACKPACK_CONFIG_MAGIC;
 
 #if defined(AAT_BACKPACK)
-    m_config.aat.satelliteHomeMin = 5;
+    m_config.aat.satelliteHomeMin = 6;
     m_config.aat.project = 0xff;
     m_config.aat.servoSmooth = 5;
     m_config.aat.centerDir = 0; // N
